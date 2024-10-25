@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/buttons_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/navigation_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#808080">
+
+            <TextView
+                android:id="@+id/hello_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Hello quang"
+                android:textColor="@android:color/white"
+                />
+
+        </RelativeLayout>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/a1" />
+
+
+
+        <Button
+            android:id="@+id/new_game_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="New Game" />
+
+        <Button
+            android:id="@+id/continue_game_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Continue Game" />
+
+        <Button
+            android:id="@+id/help_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Help" />
+
+        <Button
+            android:id="@+id/quick_game_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Quick Game" />
+
+    </LinearLayout>
+
+</RelativeLayout>
